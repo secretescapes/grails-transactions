@@ -1,0 +1,92 @@
+# Project build files.
+*cobertura.ser
+*bin
+target/
+out/
+*plugin.xml
+*.log
+node_modules
+*.war
+*.codekit
+*.css.map
+*.js.map
+compiled/
+
+# IntelliJ IDEA project files.
+apps/cms/.idea
+.idea
+.slcache
+*.iml
+*.ipr
+*.iws
+*.ids
+#idea database connection
+.ideaDataSources/
+
+# Library description files
+*.tld
+
+# STS Eclipse project files.
+*.classpath
+*.project
+*.settings
+target-eclipse
+
+# Test reports
+/reports
+/report
+/apps/cms/report
+/apps/cms/reports
+
+# Hidden osx files
+.DS_Store
+
+#Python compiled classes
+*.pyc
+
+# Bootstrapped messages.properties
+grails-app/i18n/messages*.properties
+se-config.groovy
+scripts/custom-db-sync.sh
+
+# Local truststore for running functional tests from IntelliJ
+cacerts
+
+# Ignore temp editor files
+*~
+*.orig
+
+#Temp uploaded cms images
+apps/cms/web-app/uploaded/
+
+# compiled bisect_tests script
+bisect_tests
+
+**/*/app-version.json
+
+#db-sync files
+*.sql.xz
+*.dmp.xz
+
+#vscode config
+.vscode
+
+test/wiremock/wiremock*
+
+# Compiled CSS
+grails-app/assets/stylesheets/main.css
+grails-app/assets/stylesheets/mobile/main.css
+grails-app/assets/stylesheets/offersPage/offers-new.css
+grails-app/assets/stylesheets/falcon/core/bookingForm/bookingForm.css
+grails-app/assets/stylesheets/mobile/falcon/features/instant-access.css
+grails-app/assets/stylesheets/mobile/voucher/gift-voucher.css
+grails-app/assets/stylesheets/common/live-chat.css
+grails-app/assets/stylesheets/mobile/falcon/templates/sale-page.css
+grails-app/assets/stylesheets/mobile/falcon/templates/sale-page-head.css
+grails-app/assets/stylesheets/mobile/falcon/templates/current-sales.css
+grails-app/assets/stylesheets/mobile/falcon/templates/current-sales-head.css
+
+contract-testing/schema.yml
+contract-testing/schema.json
+
+xrebel.jar
