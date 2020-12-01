@@ -53,4 +53,15 @@ class Example2Controller {
 		}
 		return [authors: Author.findAll()]
 	}
+
+	def exampleE() {
+		try {
+			annotatedTransactionalService.createAndThrowCheckedException()
+		} catch(IOException checkedException) {
+			flash.message = "Checked exception was trown: ${checkedException.toString()}"
+		} catch(RuntimeException uncheckedException) {
+			flash.message = "Unchecked exception was trown: ${uncheckedException.toString()}"
+		}
+		return [authors: Author.findAll()]
+	}
 }

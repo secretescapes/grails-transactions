@@ -11,6 +11,11 @@ class AnnotatedTransactionalService {
 
 
 
+	def createAndThrowCheckedException() {
+		new Author(name: RandomNames.getRandomName()).save()
+		throw new IOException()
+	}
+
 	def createAndCallToThrowCheckedException() {
 		new Author(name: RandomNames.getRandomName()).save()
 		annotatedTransactionalExceptionsService.throwCheckedException()
