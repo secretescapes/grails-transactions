@@ -9,6 +9,7 @@
 	<li><g:link action="exampleA">Only method level annotation</g:link></li>
 	<li><g:link action="exampleB">Only method level annotation (with static transactional = true)</g:link></li>
 	<li><g:link action="exampleC">Class and method level annotations</g:link></li>
+	<li><g:link action="exampleD">"static transactional = false" with @Transactional method level annotation</g:link></li>
 </ul>
 </body>
 </html>
