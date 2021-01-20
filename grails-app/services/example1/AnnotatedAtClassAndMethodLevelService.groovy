@@ -9,9 +9,6 @@ import grails.transactions.RandomNames
 @Transactional
 class AnnotatedAtClassAndMethodLevelService {
 
-
-	static transactional = true
-
 	@NotTransactional
 	def createAndThrowUncheckedException() {
 		// This now transactional, as it has been properly annotated at class level
