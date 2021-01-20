@@ -12,9 +12,9 @@ class Question3Controller {
 		try {
 			question3Service.optionA()
 		} catch(RuntimeException e) {
-			flash.message = "Checked exception was trown: ${e.toString()}"
-		} catch(Exception e) {
 			flash.message = "Unchecked exception was trown: ${e.toString()}"
+		} catch(Exception e) {
+			flash.message = "Checked exception was trown: ${e.toString()}"
 		}
 		return [authors: Author.findAll()]
 	}
@@ -23,9 +23,9 @@ class Question3Controller {
 		try {
 			question3Service.optionB()
 		} catch(RuntimeException e) {
-			flash.message = "Checked exception was trown: ${e.toString()}"
-		} catch(Exception e) {
 			flash.message = "Unchecked exception was trown: ${e.toString()}"
+		} catch(Exception e) {
+			flash.message = "Checked exception was trown: ${e.toString()}"
 		}
 		return [authors: Author.findAll()]
 	}
@@ -34,9 +34,9 @@ class Question3Controller {
 		try {
 			question3Service.optionC()
 		} catch(RuntimeException e) {
-			flash.message = "Checked exception was trown: ${e.toString()}"
-		} catch(Exception e) {
 			flash.message = "Unchecked exception was trown: ${e.toString()}"
+		} catch(Exception e) {
+			flash.message = "Checked exception was trown: ${e.toString()}"
 		}
 		return [authors: Author.findAll()]
 	}
@@ -45,9 +45,9 @@ class Question3Controller {
 		try {
 			question3Service.optionD()
 		} catch(RuntimeException e) {
-			flash.message = "Checked exception was trown: ${e.toString()}"
-		} catch(Exception e) {
 			flash.message = "Unchecked exception was trown: ${e.toString()}"
+		} catch(Exception e) {
+			flash.message = "Checked exception was trown: ${e.toString()}"
 		}
 		return [authors: Author.findAll()]
 	}
@@ -56,9 +56,9 @@ class Question3Controller {
 		try {
 			question3Service.optionE()
 		} catch(RuntimeException e) {
-			flash.message = "Checked exception was trown: ${e.toString()}"
-		} catch(Exception e) {
 			flash.message = "Unchecked exception was trown: ${e.toString()}"
+		} catch(Exception e) {
+			flash.message = "Checked exception was trown: ${e.toString()}"
 		}
 		return [authors: Author.findAll()]
 	}
@@ -67,9 +67,9 @@ class Question3Controller {
 		try {
 			question3Service.optionF()
 		} catch(RuntimeException e) {
-			flash.message = "Checked exception was trown: ${e.toString()}"
-		} catch(Exception e) {
 			flash.message = "Unchecked exception was trown: ${e.toString()}"
+		} catch(Exception e) {
+			flash.message = "Checked exception was trown: ${e.toString()}"
 		}
 		return [authors: Author.findAll()]
 	}
