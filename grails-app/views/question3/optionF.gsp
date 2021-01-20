@@ -7,7 +7,7 @@
 <body>
 <h1>Authors ${authors.size()}</h1>
 <p>
-	Checked exception. NO ROLLBACK.
+	The Checked exception is wrapped in an unchecked exception. ROLLBACK.
 </p>
 <g:if test="${flash.message}">
 	<div style="color: red;">${flash.message}</div>

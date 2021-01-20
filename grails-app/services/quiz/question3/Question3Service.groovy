@@ -8,6 +8,7 @@ import grails.transactions.RandomNames
 class Question3Service {
 
 	def question3ExceptionService
+	def question3ExceptionStaticPropertyService
 
     def optionA() {
 		new Author(name: RandomNames.getRandomName()).save()
@@ -44,6 +45,6 @@ class Question3Service {
 
 	def optionF() {
 		new Author(name: RandomNames.getRandomName()).save()
-		throw new ExceptionB("Something went wrong")
+		question3ExceptionStaticPropertyService.throwExceptionA()
 	}
 }
