@@ -7,8 +7,8 @@
 <body>
 <h1>Authors ${authors.size()}</h1>
 <p>
-	This service is now properly annotated, and the service method used here is not transactional, so even though
-	an exception is thrown, the transaction is not rolled back, so the authors are created and persisted.
+	This service is now properly annotated, and the service method used here is transactional, even though
+	the service is set as non transactional by the static property.
 </p>
 <ul>
 	<g:each in="${authors}" var="author">
